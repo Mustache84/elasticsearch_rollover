@@ -1,0 +1,21 @@
+---
+# This is a list of indices inside the cluster
+#
+### BY DEFAULT, ALL INDICES have a 365 day  retention period if you add them to the list via name:
+#
+# - name: index_name
+#
+# without a key:value pair of days: ###  the indices will default to this 365 data retention period.
+# if the indices has a different data retention period then add the days: key and fill in the value, such as:
+#
+# days: 90
+#
+#
+# INDICES WITH INTEGERS AS NAMES! You must wrap them with quotes. IE:  - name: "1234"
+# if you fail to wrap integers with quotes, the script breaks and fails.
+#
+- name: Development_Cluster #this is pointless if using one cluster
+  indices:
+    # Custom Durations
+    - name: demo
+      days: 7
