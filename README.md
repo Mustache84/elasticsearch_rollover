@@ -1,1 +1,1 @@
-# elasticsearch_rollover
+Just a basic readme for now, will update later
