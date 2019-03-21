@@ -1,5 +1,5 @@
 requests
-PyYAML==3.11
+PyYAML == 4.2b1
 --extra-index-url https://pypi.mss.centurylink.com
 lambda-base
 
